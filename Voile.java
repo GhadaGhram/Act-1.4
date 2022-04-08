@@ -1,5 +1,5 @@
 public class Voile{
-       private id=6;
+       private int id6=6;
        private int longueur ;
        private int largeur;
        protected String forme ;
@@ -29,12 +29,12 @@ public class Voile{
      boolean derouler (boolean deroule) { 
                                                                         boolean b=!deroule;
                                                                         return b;                                       
-    public int getId() {
-		return id;
+    public int getId6() {
+		return id6;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setId6(int id6) {
+		this.id6 = id6;
 	}
 
 	public int getLongueur() {
