@@ -1,5 +1,5 @@
 class Bateau{
-          private int id=1;
+          private int id1=1;
           public String b1;
           public String b2;         
           Coque coque;
@@ -29,17 +29,17 @@ class Bateau{
                                  int b=!embarquer;
                                  return b;}
 public String toString(Bateau bateau) {
-		return "Le bateau n° " + bateau.getId() + " est constitué de: \n" + "La coque n° " + 
-	bateau.getCoque().getId() + "\n La cabine n° " + bateau.getCabine().getId() + "\n Le pont n° " + bateau.getPont().getId()
-	+ " est constitué de la Voile N° " + bateau.getPont().getVoile().getId(); 
+		return "Le bateau n° " + bateau.getId1() + " est constitué de: \n" + "La coque n° " + 
+	bateau.getCoque().getId2() + "\n La cabine n° " + bateau.getCabine().getId3() + "\n Le pont n° " + bateau.getPont().getId4()
+	+ " est constitué de la Voile N° " + bateau.getPont().getVoile().getId6(); 
 	}
 
-	public Integer getId() {
-		return id;
+	public Integer getId1() {
+		return id1;
 	}
 
-	public void setId(Integer id) {
-		this.id = id;
+	public void setId1(Integer id1) {
+		this.id1 = id1;
 	}
 
 	public String getB1() {
