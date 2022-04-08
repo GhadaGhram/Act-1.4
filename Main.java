@@ -1,5 +1,3 @@
-package projectBoat;
-
 public class Main {
 	public static void main(String[] args) {
 		Coque coque = new Coque();
