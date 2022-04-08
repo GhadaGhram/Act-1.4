@@ -1,5 +1,5 @@
 public class Coque{
-            private int id=2;
+            private int id2=2;
             int p;
             int e;
  
@@ -16,11 +16,11 @@ public class Coque{
               int m= p*e;
               return m;}
       
-           public int getId() {
-	  return id;}
+           public int getId2() {
+	  return id2;}
 	
-           public void setId(int id) {
-	   this.id = id;} 
+           public void setId2(int id2) {
+	   this.id = id2;} 
 
            public String getP() {
 		return p;
