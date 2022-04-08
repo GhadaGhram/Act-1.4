@@ -1,5 +1,5 @@
 public class Cabine{
-           private int id=3;
+           private int id3=3;
            public int H;
            public int L;
            public int l;
@@ -18,10 +18,10 @@ public class Cabine{
                    int V= H*L*l;
                    return V;}
          
-           public int getId() {
-		return id;}
+           public int getId3() {
+		return id3;}
 	
-	public void setId(int id) {
-		this.id = id;}
+	public void setId3(int id3) {
+		this.id3 = id3;}
 	
 }
