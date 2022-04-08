@@ -1,5 +1,5 @@
 public class Pont{
-          private int id=4;
+          private int id4=4;
           public int x;
           public int y;
           Voile voile;
@@ -18,11 +18,11 @@ public class Pont{
           { 
            return(true);}
           
-          public int getId() {
-		return id;}
+          public int getId4() {
+		return id4;}
 	
-	public void setId(int id) {
-		this.id = id;}
+	public void setId(int id4) {
+		this.id = id4;}
 	
           public int getX() {
 		return x;}
