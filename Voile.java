@@ -1,4 +1,3 @@
-package projectBoat;
 public class Voile{
        private id=6;
        private int longueur ;
