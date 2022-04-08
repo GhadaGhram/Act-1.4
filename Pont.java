@@ -21,7 +21,7 @@ public class Pont{
           public int getId4() {
 		return id4;}
 	
-	public void setId(int id4) {
+	public void setId4(int id4) {
 		this.id = id4;}
 	
           public int getX() {
